@@ -1,0 +1,135 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+    scrollViewContainer: { flex: 1, backgroundColor: '#111111' },
+    mainContainer: {
+        flex: 1,
+        backgroundColor: '#111111',
+        padding: 10,
+        paddingHorizontal: 20,
+    },
+    headerText: {
+        marginLeft: 10,
+        marginTop: 10,
+        color: '#fff',
+        fontSize: 16,
+        fontFamily: 'Poppins-SemiBold',
+        marginBottom:10,
+    },
+    selectAmountContainer: {
+        height: 150,
+        marginTop: 10,
+        padding: 15,
+    },
+    commonFlex: { flex: 1, flexDirection: 'row' },
+    imageContainer: {
+        width: 30,
+        height: 30,
+        justifyContent: 'center',
+        backgroundColor: 'white',
+        borderRadius: 100,
+    },
+        backgroundImage: {
+        padding: 10,
+        height: 190,
+        resizeMode: 'contain'
+    },
+    imageContent: { alignSelf: 'center', height: 20, width: 20 },
+    boxHeaderContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    boxHeader: {
+        fontSize: 11,
+        fontWeight: '400',
+        color: '#fff',
+        fontFamily: 'Poppins-Medium',
+    },
+    textRupees: {
+        bottom: 2,
+        fontSize: 22,
+        marginLeft: 7,
+        fontFamily: 'Poppins-Medium',
+        color: '#fff',
+        fontWeight: '900',
+    },
+    box: {
+        borderRadius: 10,
+        backgroundColor: '#fff',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flex: 1,
+        margin: 5, // Add margin between the boxes
+    },
+    buttonContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignSelf: 'center',
+        borderRadius: 8,
+        paddingVertical: 10,
+        paddingHorizontal: 15,
+    },
+    buttonText: {
+        fontSize: 12,
+        color: '#fff',
+        fontFamily: 'Poppins-SemiBold',
+        textAlign: 'center',
+    },
+    cardButtonImages: { alignSelf: 'center', height: 10, width: 10 },
+    reedemCardButtonImages: { alignSelf: 'center', height: 16, width: 16 },
+    paymentHistory: {
+        flex: 1,
+        flexDirection: 'row',
+        paddingTop: 14,
+        justifyContent: 'space-between',
+    },
+    summaryText: {
+        color: '#fff',
+        fontSize: 14,
+        fontFamily: 'Poppins-Medium',
+    },
+    summaryContent: {
+        backgroundColor: '#383838',
+        paddingVertical: 4,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 15,
+        paddingHorizontal: 22,
+        marginLeft: 10,
+    },
+    summaryContentText: {
+        color: '#fff',
+        fontSize: 9,
+        fontFamily: 'Poppins-Medium',
+    },
+    selectedButton: {
+        backgroundColor: '#279bff',
+        paddingVertical: 4,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 15,
+        paddingHorizontal: 22,
+        marginLeft: 10,
+    },
+    selectedButtonText: {
+        color: '#fff',
+        fontSize: 9,
+        fontFamily: 'Poppins-Medium',
+    },
+    flstlistContent: { flex: 1, flexDirection: 'row', justifyContent: 'space-between' },
+    contentContainer: {
+        paddingTop: 10,
+        paddingBottom: 60,
+    },
+    contentItem: {
+        backgroundColor: '#383838',
+        padding: 10,
+        marginBottom: 10,
+        borderRadius: 8,
+    },
+    contentText: {
+        color: '#fff',
+        fontSize: 10,
+        fontFamily: 'Poppins-Medium',
+    },
+});
